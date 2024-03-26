@@ -11,9 +11,9 @@ from streamlit_option_menu import option_menu
 
 # loading ML model 
 
-diabetes_model=pickle.load(open('E:/Journey/My DS/Project 14 - Multiple Disease Prediction using Machine Learning in Python Streamlit Web App - Deployment/saved_models/diabetes_pred_trained_model.sav','rb')) #reading in binary mode
-heart_disease_model=pickle.load(open('E:/Journey/My DS/Project 14 - Multiple Disease Prediction using Machine Learning in Python Streamlit Web App - Deployment/saved_models/heart_disease_pred_trained_model.sav','rb')) #reading in binary mode
-parkinsons_model=pickle.load(open('E:/Journey/My DS/Project 14 - Multiple Disease Prediction using Machine Learning in Python Streamlit Web App - Deployment/saved_models/parkinsons_disease_pred_trained_model.sav','rb')) #reading in binary mode
+diabetes_model=pickle.load(open('saved_models/diabetes_pred_trained_model.sav','rb')) #reading in binary mode
+heart_disease_model=pickle.load(open('saved_models/heart_disease_pred_trained_model.sav','rb')) #reading in binary mode
+parkinsons_model=pickle.load(open('saved_models/parkinsons_disease_pred_trained_model.sav','rb')) #reading in binary mode
 
 #sidebar for navigating
 #https://icons.getbootstrap.com/ for icons
