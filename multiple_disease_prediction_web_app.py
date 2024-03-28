@@ -31,9 +31,6 @@ if (selected =='Diabetes Prediction'):
     
     st.title('Diabetes Prediction using ML Model')
     st.header('Model Used - Support Vector Machine')
-    st.image("https://my.clevelandclinic.org/-/scassets/images/org/health/articles/7104-diabetes-symptoms"
-             ,width = 400 
-             ,caption='Symptoms of Diabetes')
     # Getting input Data from user
     #Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age
     
@@ -89,9 +86,7 @@ if (selected =='Heart Disease Prediction'):
     
     st.title('Heart Disease Prediction using ML Model')
     st.header('Model Used - Logistic Regression')
-    st.image("https://www.udmi.net/wp-content/uploads/2020/02/UDMI_Cardiovascular-Disease.png"
-             ,width = 400 
-             ,caption='Types of Heart Diseases')
+     
 
     col1, col2, col3 = st.columns(3)
 
@@ -158,9 +153,7 @@ if (selected =='Parkinsons Prediction'):
     
     st.title('Parkinsons Prediction using ML Model')
     st.header('Model Used - Support Vector Machine') 
-    st.image("https://singaporebrain.org/wp-content/uploads/2015/08/ParkinsonsDisease.png"
-             ,width = 400 
-             ,caption='Symptoms of Parkinsons')    
+      
     
     col1, col2, col3, col4, col5 = st.columns(5)
 
