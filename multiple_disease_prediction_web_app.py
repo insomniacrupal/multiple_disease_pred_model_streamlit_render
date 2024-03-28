@@ -29,7 +29,7 @@ with st.sidebar:
 # Diabetes Prediction Page
 if (selected =='Diabetes Prediction'):
     
-    st.title('Diabetes Prediction using ML')
+    st.title('Diabetes Prediction using ML Model - Support Vector Machine')
     # Getting input Data from user
     #Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age
     
@@ -83,7 +83,7 @@ if (selected =='Diabetes Prediction'):
 # Heart Disease Prediction Page
 if (selected =='Heart Disease Prediction'):
     
-    st.title('Heart Disease Prediction using ML')
+    st.title('Heart Disease Prediction using ML Model - Logistic Regression')
 
     col1, col2, col3 = st.columns(3)
 
@@ -148,7 +148,7 @@ if (selected =='Heart Disease Prediction'):
 
 if (selected =='Parkinsons Prediction'):
     
-    st.title('Parkinsons Prediction using ML')    
+    st.title('Parkinsons Prediction using ML Model - Support Vector Machine')    
     
     col1, col2, col3, col4, col5 = st.columns(5)
 
