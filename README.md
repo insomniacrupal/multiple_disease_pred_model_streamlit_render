@@ -7,6 +7,7 @@ Diabetes Prediction - SVM
 Heart Disease Prediction - Logistic Regression
 Parkinsons Prediction - SVM
 
+site link: https://docker-multiple-disease-pred-model.onrender.com
 **************************************************
 
 Multiple_Disease_Prediction_web_app
